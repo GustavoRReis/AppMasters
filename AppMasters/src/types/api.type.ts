@@ -3,6 +3,7 @@ type APIData = {
   platform: string;
   thumbnail: string;
   title: string;
+  genre: string;
 };
 
 export default APIData;

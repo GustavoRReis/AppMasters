@@ -12,6 +12,7 @@ function Cards({ dataCards }: { dataCards: APIData[] }) {
           <h3>{ data.title }</h3>
           <p>{ data.developer }</p>
           <p>{ data.platform }</p>
+          <p>{ data.genre }</p>
         </div>
       )) }
     </div>

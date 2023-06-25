@@ -1,7 +1,9 @@
-import { createContext } from 'react';
-import APIData from '../types/api.type';
+import { createContext, Context } from 'react';
+import APIContextProps from '../interfaces/context';
 
-
-const APIContext = createContext<APIData[]>([]);
+const APIContext: Context<APIContextProps> = createContext<APIContextProps>({
+  apiData: [],
+  errorMessage: '',
+});
 
 export default APIContext;

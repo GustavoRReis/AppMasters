@@ -10,7 +10,6 @@ function App() {
       <APIProvider>
         <Routes>
           <Route path='/' element={ <Home /> } />
-
         </Routes>
       </APIProvider>
 
@@ -18,4 +17,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
