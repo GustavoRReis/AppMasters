@@ -30,4 +30,29 @@ img {
   background-color:rgb(234, 241, 241);
 }
 
+@media (max-width: 768px) {
+  .input-search {
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    position: relative;
+  }
 
+  img {
+    width: 100%;
+    max-width: 200px;
+  }
+
+  .input-search input,
+  .input-search select {
+    width: 30%;
+    
+  }
+}
+
+@media (max-width: 375px) {
+   img {
+    display: none;
+  }
+
+}

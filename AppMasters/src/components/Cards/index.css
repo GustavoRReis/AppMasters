@@ -30,3 +30,31 @@
 .card img {
   width: 100%;
 }
+
+
+@media (max-width: 768px) {
+  .card-container {
+    margin: auto;
+  }
+  .card {
+    width: 40%;
+    font-size: 22px;
+  }
+
+ 
+}
+
+@media (max-width: 715px) {
+  .card {
+    width: 100%;
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 376px) {
+
+  .card {
+    width: 100%;
+    font-size: 18px;
+  }
+}
